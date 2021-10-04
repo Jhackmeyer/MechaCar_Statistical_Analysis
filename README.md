@@ -23,3 +23,13 @@ And following here is a summary of the same coils and PSI findings grouped by pr
 ![Suspension_Summary_by_Lot](resources/images/lot_summary.jpg)
 
 If we were to look at the overall summary, we would see acceptable numbers.  A variance of about 62 pounds per square inch is below  100, the threshold for acceptable variance set by the company, MechaCar.  However, when looking at the variance by lot, we can see that most of the coil variation comes from Lot 3.  Lot 3 variance measures at 170 PSI, falling far outside the acceptable threshold of 100.
+
+## T-Tests on Suspension Coils
+
+Below is a table containing the p-values obtained from t-testing the coils' weight capacities across all the data, and across each lot.
+
+![P-Values](resources/images/p_values.jpg)
+
+According to these results, the total data set, lot 1, and lot 2 all have p-values above our 0.05 confidence level. This means that we can reject our null hypothesis; it seems that these sets are statistically similar to the population.  In fact, lot 1, with a p-value of 1, should almost exactly model the population.
+
+Meanwhile, lot 3 remains the skewing data.  With a p-value below 0.05, we can reject the null hypothesis and say that the sample is statistically different.

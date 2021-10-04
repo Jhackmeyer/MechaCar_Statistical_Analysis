@@ -33,3 +33,13 @@ Below is a table containing the p-values obtained from t-testing the coils' weig
 According to these results, the total data set, lot 1, and lot 2 all have p-values above our 0.05 confidence level. This means that we can reject our null hypothesis; it seems that these sets are statistically similar to the population.  In fact, lot 1, with a p-value of 1, should almost exactly model the population.
 
 Meanwhile, lot 3 remains the skewing data.  With a p-value below 0.05, we can reject the null hypothesis and say that the sample is statistically different.
+
+## Study Design: MechaCar vs Competition
+
+We could further look at highway fuel efficiency.  Cars are an expensive investment, and knowing one kind of car is more efficient with its gas is a compelling factor.  We would collect mileage data from a large sample of both MechaCar vehicles and competitors' vehicles.  This data would be in miles per gallon of gas.
+
+Our null hypothesis, then, is that the differences seen between MechaCar and its competitors is due to random chance, that there is no statistical difference between the two samples.
+
+Our alternate hypothesis, then, is that there is a statistically significant difference between the two observed samples.
+
+To test our hypothesis, we would use a two-sample t-test, since our data (mpg) is continuous and numerical, and since we are comparing two samples.

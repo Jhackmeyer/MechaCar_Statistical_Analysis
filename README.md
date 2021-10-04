@@ -36,10 +36,10 @@ Meanwhile, lot 3 remains the skewing data.  With a p-value below 0.05, we can re
 
 ## Study Design: MechaCar vs Competition
 
-We could further look at highway fuel efficiency.  Cars are an expensive investment, and knowing one kind of car is more efficient with its gas is a compelling factor.  We would collect mileage data from a large sample of both MechaCar vehicles and competitors' vehicles.  This data would be in miles per gallon of gas.
+For further analysis, we could look at highway fuel efficiency.  Cars are an expensive investment, and knowing one kind of car is more efficient with its gas than another can be a compelling factor when considering a purchase.  We would collect mileage data from a large sample of both MechaCar vehicles and competitors' vehicles.  This data would be in miles per gallon of gas.
 
 Our null hypothesis, then, is that the differences seen between MechaCar and its competitors is due to random chance, that there is no statistical difference between the two samples.
 
-Our alternate hypothesis, then, is that there is a statistically significant difference between the two observed samples.
+Our alternative hypothesis, then, is that there is a statistically significant difference between the two observed samples.
 
 To test our hypothesis, we would use a two-sample t-test, since our data (mpg) is continuous and numerical, and since we are comparing two samples.

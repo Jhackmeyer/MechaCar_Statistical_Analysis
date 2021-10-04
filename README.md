@@ -1,1 +1,13 @@
 # MechaCar_Statistical_Analysis
+
+## Linear Regression to Predict MPG
+
+Here, we perform a linear regression on the data to see the relationships, if any, mpg has with the other variables.
+
+![Linear_Regression_mpg](resources/images/mpg_lin_regression.jpg)
+
+The data shows a statistically significant relationship between mpg and both ground clearance and vehicle length.  This means these two variables seem to have a non-random amount of variance to the mpg values.
+
+Because the p-values of these two are about 5 x 10^8, much smaller than our assumed significance of 0.05,  we can reject our null hypothesis and assume the slope of those linear models to be non-zero.
+
+An r-squared value over 0.71 means our liner regression model exhibits potentially strong predictive power.
